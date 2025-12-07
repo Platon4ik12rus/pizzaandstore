@@ -1,0 +1,15 @@
+{
+    "name": "yourname/pizza-factory",
+    "description": "Абстрактная фабрика пицц — только интерфейсы и базовые классы",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PizzaFactory\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    },
+    "minimum-stability": "stable"
+}
